@@ -19,13 +19,7 @@ fn search(table: &[String], word: &str) -> bool {
     table[index] == word
 }
 
-fn main() {
-    let mut table = [(); 100].map(|_| String::new());
-
-    insert(&mut table, "hello".to_string());
-
-    println!("{:#?}", table);
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {

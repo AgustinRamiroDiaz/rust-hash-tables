@@ -19,13 +19,7 @@ fn search(table: &[Vec<String>], word: &str) -> bool {
     table[index].contains(&word.to_string())
 }
 
-fn main() {
-    let mut table = [(); 100].map(|_| Vec::new());
-
-    insert(&mut table, "hello".to_string());
-
-    println!("{:#?}", table);
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {

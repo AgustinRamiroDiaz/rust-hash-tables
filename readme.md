@@ -13,5 +13,5 @@ cargo test --example <file_name>
 For example:
 
 ```sh
-cargo test --example 1
+cargo test --example 2-handle-collisions
 ```
